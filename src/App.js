@@ -1,7 +1,20 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import React from 'react';
+import Home from './Home';
+import About from './About';
 
 function App() {
-  return <div>Hello, this is a test</div>;
+    return (
+        <BrowserRouter>
+            <nav>
+                <Link to="/">Home</Link> | <Link to="/about">About</Link>
+            </nav>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
