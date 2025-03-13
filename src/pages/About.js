@@ -12,37 +12,28 @@ function About() {
                                 <h6 className="text-gray-400 text-base font-normal leading-relaxed">About Me</h6>
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                     <h2 className="text-indigo-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                                        Adam Johnson: Software Engineer
+                                        Adam Johnson
                                     </h2>
+                                    <h3 className="text-indigo-700 text-2xl font-bold font-manrope leading-normal lg:text-start text-center">
+                                        Software Engineer
+                                    </h3>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        Ipsum whatever
+                                        Hello!  My name is Adam, and as you probably know, I'm a software engineer.  I have always had a passion for software development, even as a child.
+                                        In fact, even when I was around 7 years old, I already knew I wanted to be working closely with computers.  Of course, as a kid, that was also targeted more towards other hobbies as well, such as video games, 
+                                        but as I grew older, I just wanted to create things!  
                                     </p>
-                                </div>
-                            </div>
-                            <div className="w-full flex-col justify-center items-start gap-6 flex">
-                                <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                                    <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">Project here?</h4>
-                                        <p className="text-gray-500 text-base font-normal leading-relaxed">Info about said project</p>
-                                    </div>
-                                    <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">Project here?</h4>
-                                        <p className="text-gray-500 text-base font-normal leading-relaxed">Info about said project</p>
-                                    </div>
-                                </div>
-                                <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                                    <div
-                                        className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">Project here?</h4>
-                                        <p className="text-gray-500 text-base font-normal leading-relaxed">Info about said project</p>
-                                    </div>
-                                    <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">Project here?</h4>
-                                        <p className="text-gray-500 text-base font-normal leading-relaxed">Info about said project</p>
-                                    </div>
+                                    <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                        I started learning how to program on my own, but with little access to materials or even a computer good enough to program on, it took me some time.  
+                                        But in my junior year of high school, I was able to join a programming class.  I was immediately enthralled!  I spent all of my junior and senior year 
+                                        invested in programming.  I even got to participate in a programming competition for Business Professionals of America.  I blasted through the regional competition, 
+                                        placed within the top 5 for my state, and then in the top 10 at a national level, which was the highlight of my time in high school.
+                                    </p>
+                                    <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                        My learning didn't stop, of course.  I then went on to join Western Michigan University, and eventually graduated with a Bachelors in Computer Science.  Of course, 
+                                        as anyone in the field knows, my learning was just beginning!  I then joined Brown Manufacturing as a Software Engineer, and I have been working with them ever since. 
+                                        There, I've learned an incredible amount of skills.  From all the Cs (C#, C++, and C) at a professional level, to managing AWS, and to React!  I have experience in all 
+                                        parts of the tech stack, and love each one.
+                                    </p>
                                 </div>
                             </div>
                         </div>

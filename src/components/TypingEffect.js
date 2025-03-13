@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 const TypingEffect = ({ message, speed = 100 }) => {
-    const [typedText, setTypedText] = useState('');
-    const [index, setIndex] = useState(0);
+    const [typedText, setTypedText] = useState(message.charAt(0));
+    const [index, setIndex] = useState(1);
 
     useEffect(() => {
         if (index < message.length) {
