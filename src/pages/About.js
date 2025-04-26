@@ -18,21 +18,21 @@ function About() {
                                         Software Engineer
                                     </h3>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        Hello!  My name is Adam, and as you probably know, I'm a software engineer.  I have always had a passion for software development, even as a child.
-                                        In fact, even when I was around 7 years old, I already knew I wanted to be working closely with computers.  Of course, as a kid, that was also targeted more towards other hobbies as well, such as video games, 
-                                        but as I grew older, I just wanted to create things!  
+                                        Hi, I’m Adam — a passionate and results-driven software engineer with a love for solving problems and building great software.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        I started learning how to program on my own, but with little access to materials or even a computer good enough to program on, it took me some time.  
-                                        But in my junior year of high school, I was able to join a programming class.  I was immediately enthralled!  I spent all of my junior and senior year 
-                                        invested in programming.  I even got to participate in a programming competition for Business Professionals of America.  I blasted through the regional competition, 
-                                        placed within the top 5 for my state, and then in the top 10 at a national level, which was the highlight of my time in high school.
+                                        My journey into development started early. As a kid, I was fascinated by computers, video games, and the idea that I could create things with code.
+                                        That curiosity turned into a deep passion when I finally got my hands on a programming class in high school. Within a year, I was competing nationally with the
+                                        Business Professionals of America, placing in the top 10 in the country — and I haven’t stopped pushing forward since.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        My learning didn't stop, of course.  I then went on to join Western Michigan University, and eventually graduated with a Bachelors in Computer Science.  Of course, 
-                                        as anyone in the field knows, my learning was just beginning!  I then joined Brown Manufacturing as a Software Engineer, and I have been working with them ever since. 
-                                        There, I've learned an incredible amount of skills.  From all the Cs (C#, C++, and C) at a professional level, to managing AWS, and to React!  I have experience in all 
-                                        parts of the tech stack, and love each one.
+                                        Today, I’m a Software Engineer at Brown Manufacturing, where I’ve spent the past few years leading projects and building everything from full-stack web
+                                        apps to high-performance APIs. I’ve worked hands-on with technologies like C#, React, AWS, and SQL, optimizing systems for speed, scalability, and
+                                        cost-efficiency. Whether it’s cutting server costs in half, integrating with platforms like Shopify and ShipStation, or mentoring teammates, I bring
+                                        energy and ownership to everything I do.
+                                    </p>
+                                    <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
+                                        I thrive in environments where I can keep learning, building, and collaborating. Whether it's front-end, back-end, cloud, or DevOps — I love it all.
                                     </p>
                                 </div>
                             </div>
