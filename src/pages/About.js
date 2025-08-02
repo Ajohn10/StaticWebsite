@@ -18,21 +18,21 @@ function About() {
                                         Software Engineer
                                     </h3>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        Hi, I’m Adam — a passionate and results-driven software engineer with a love for solving problems and building great software.
+                                        Hi, I'm Adam - a passionate and results-driven software engineer with a love for solving problems and building great software.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                                         My journey into development started early. As a kid, I was fascinated by computers, video games, and the idea that I could create things with code.
                                         That curiosity turned into a deep passion when I finally got my hands on a programming class in high school. Within a year, I was competing nationally with the
-                                        Business Professionals of America, placing in the top 10 in the country — and I haven’t stopped pushing forward since.
+                                        Business Professionals of America, placing in the top 10 in the country - and I haven't stopped pushing forward since.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        Today, I’m a Software Engineer at Brown Manufacturing, where I’ve spent the past few years leading projects and building everything from full-stack web
-                                        apps to high-performance APIs. I’ve worked hands-on with technologies like C#, React, AWS, and SQL, optimizing systems for speed, scalability, and
-                                        cost-efficiency. Whether it’s cutting server costs in half, integrating with platforms like Shopify and ShipStation, or mentoring teammates, I bring
+                                        Today, I'm a Software Engineer at Brown Manufacturing, where I've spent the past few years leading projects and building everything from full-stack web
+                                        apps to high-performance APIs. I've worked hands-on with technologies like C#, React, AWS, and SQL, optimizing systems for speed, scalability, and
+                                        cost-efficiency. Whether it's cutting server costs in half, integrating with platforms like Shopify and ShipStation, or mentoring teammates, I bring
                                         energy and ownership to everything I do.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                        I thrive in environments where I can keep learning, building, and collaborating. Whether it's front-end, back-end, cloud, or DevOps — I love it all.
+                                        I thrive in environments where I can keep learning, building, and collaborating. Whether it's front-end, back-end, cloud, or DevOps, I love it all.
                                     </p>
                                 </div>
                             </div>
