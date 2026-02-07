@@ -1,30 +1,50 @@
 import React from 'react';
-import TypingEffect from '../components/TypingEffect';
+import SkillsHero from '../components/SkillsHero';
+import pc from '../assets/images/pc.jpg';
 
 function Home() {
 
-    const skills = ['C#', 'React', 'AWS', 'C++', 'C', 'Typescript', 'WPF', 'REST', 'GraphQL'];
+    const skills = [
+        { name: "Azure", weight: 6 },
+        { name: "AWS", weight: 6 },
+
+        { name: "React", weight: 5 },
+        { name: ".NET", weight: 5 },
+
+        { name: "C#", weight: 5 },
+        { name: "SQL", weight: 5 },
+        { name: "Typescript", weight: 5 },
+
+        { name: "C++", weight: 4 },
+        { name: "C", weight: 4 },
+
+        { name: "WPF", weight: 3 },
+        { name: "WCF", weight: 3 },
+        { name: "Blazor", weight: 3 },
+
+        { name: "REST APIs", weight: 1 },
+        { name: "GraphQL", weight: 1 },
+        { name: "Web Apps", weight: 1 },
+        { name: "Azure Functions", weight: 1 },
+        { name: "RabbitMQ", weight: 1 },
+        { name: "CosmosDB", weight: 2 },
+        { name: "SignalR", weight: 2 },
+        { name: "Redis", weight: 2 },
+        { name: "Git", weight: 1 },
+        { name: "SVN", weight: 1 },
+        { name: "xUnit", weight: 1 },
+    ];
+
+    const divStyle = {
+        backgroundImage: `linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url(${pc})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+    };
 
     return (
-        <section className="relative flex-grow justify-center highlight highlight-variant-19 after:opacity-10">
-            <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
-                <div className="flex items-center justify-center">
-                    <TypingEffect message="Hello...  Thank you for visiting my site."></TypingEffect>
-                </div>
-                <div>
-                    <div className="max-w-4xl mx-auto w-full flex-col justify-center items-start gap-6 flex">
-                        <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-3 grid-cols-2">
-                            {skills.map((skill, index) =>
-                                <div key={index}
-                                    className="w-full h-full p-3.5 rounded-xl hover:rounded-2xl bg-opacity-70 bg-gray-900 hover:bg-opacity-100 text-slate-200 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex hover:pl-5">
-                                    <h4 className="text-md md:text-2xl font-bold font-manrope leading-9">{skill}</h4>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div className="flex-1 flex flex-col" style={divStyle}>
+            <SkillsHero skills={skills} />
+        </div>
     );
 }
 
