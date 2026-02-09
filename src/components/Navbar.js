@@ -43,6 +43,13 @@ function Navbar() {
                     >
                         About
                     </Link>
+                    <Link
+                        to="/contact"
+                        className="text-white hover:text-gray-300"
+                        onClick={() => setIsOpen(false)}
+                    >
+                        Contact Me
+                    </Link>
                 </div>
             )}
         </nav>
