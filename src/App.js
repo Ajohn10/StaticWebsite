@@ -11,12 +11,12 @@ function AppContent() {
     return (
         <div className="flex flex-col min-h-screen">
             <Navbar />
-            <div className="flex-1 relative overflow-hidden">
+            <div className="flex-1 flex flex-col relative overflow-hidden">
                 {/* Make the container relative and hide overflow */}
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={location.pathname}
-                        className="absolute inset-0 flex flex-col"
+                        className="flex-1 flex flex-col"
                         initial={{ opacity: 0, x: 20 }}
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: -20 }}

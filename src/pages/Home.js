@@ -1,8 +1,10 @@
 import React from 'react';
 import SkillsHero from '../components/SkillsHero';
 import pc from '../assets/images/pc.jpg';
+import { useDocumentTitle } from '../helpers/useDocumentTitle';
 
 function Home() {
+    useDocumentTitle("Home - Adam Johnson");
 
     const skills = [
         { name: "Azure", weight: 6 },
