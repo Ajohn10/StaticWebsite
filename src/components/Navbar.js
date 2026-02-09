@@ -14,6 +14,7 @@ function Navbar() {
                 <div className="hidden md:flex space-x-4">
                     <Link to="/" className="text-white hover:text-gray-300">Home</Link>
                     <Link to="/about" className="text-white hover:text-gray-300">About</Link>
+                    <Link to="/contact" className="text-white hover:text-gray-300">Contact Me</Link>
                 </div>
 
                 {/* Mobile Menu Button */}
